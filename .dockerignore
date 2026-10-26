@@ -2,3 +2,6 @@ node_modules
 dist
 .git
 .env
+# never send local backups (database dumps, code bundles) or coverage output to the image builder
+backups
+coverage
